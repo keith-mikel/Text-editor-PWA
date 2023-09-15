@@ -1,0 +1,11 @@
+# Ignore package-lock.json and node_modules in the top level
+package-lock.json
+node_modules/
+
+# Ignore package-lock.json and node_modules in the client folder
+client/package-lock.json
+client/node_modules/
+
+# Ignore package-lock.json and node_modules in the server folder
+server/package-lock.json
+server/node_modules/
