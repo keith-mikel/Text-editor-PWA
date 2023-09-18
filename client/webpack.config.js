@@ -23,11 +23,13 @@ module.exports = () => {
         name: 'My PWA',
         short_name: 'PWA',
         description: 'My Progressive Web App',
-        background_color: '#ffffff',
-        theme_color: '#000000',
+        background_color: '#7eb4e2',
+        theme_color: '#7eb4e2',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
-            src: path.resolve('./favicon.ico'), // Path to your app's icon
+            src: path.resolve('./images/logo.png'), // Path to your app's icon
             sizes: [96, 128, 192, 256, 384, 512],
           },
         ],
